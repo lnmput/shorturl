@@ -1,0 +1,63 @@
+h1{
+    text-align: center;
+    font-family: 微软雅黑;
+    font-weight: bolder;
+    position: relative;
+    top:180px;
+    font-size: 45px;
+}
+h2{
+    text-align: center;
+    font-family: 微软雅黑;
+    font-weight: bolder;
+    position: relative;
+    top:300px;
+}
+p{
+    text-align: center;
+    font-family: 微软雅黑;
+    font-weight: bolder;
+    position: relative;
+    top:330px;
+    width: 60%;
+    height: 40px;
+    margin:0 auto;
+    line-height: 40px;
+    border-radius: 5px;
+}
+.myurl{
+    position: relative;
+    top: 230px;
+    width: 60%;
+    margin: 0 auto;
+}
+
+.input-group-addon:last-child{
+    padding: 0 20px;
+    font-family: 微软雅黑;
+    font-weight: bolder;
+    font-size: 18px;
+    cursor: pointer;
+}
+.input-group-addon:last-child{
+    height: 45px;
+}
+.bg-danger{
+    display: none;
+}
+
+.input-group .form-control:not(:first-child):not(:last-child) {
+    height: 45px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
