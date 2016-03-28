@@ -11,19 +11,24 @@
 </head>
 <body>
 <div class="container">
+    <div class="row">
+        <div class="col-md-1"></div>
+        <div class="col-md-10">
+        <h1>短链生成器</h1>
+        <form method="post" action="short">
+        <div class="input-group myurl">
+            {{csrf_field()}}
+            <input type="text" class="form-control" name="url" id="url" placeholder="请输入超链接" aria-describedby="basic-addon2">
+            <span  class="input-group-addon" id="submit">生成</span>
+        </div>
+        </form>
 
-    <h1>短链生成器</h1>
-    <form method="post" action="short">
-    <div class="input-group myurl">
-        {{csrf_field()}}
-        <input type="text" class="form-control" name="url" id="url" placeholder="请输入超链接" aria-describedby="basic-addon2">
-        <span  class="input-group-addon" id="submit">生成</span>
+
+        <h2 id="shorturl"></h2>
+        <p class="bg-danger" id="errorInfo"></p>
+        </div>
+        <div class="col-md-1"></div>
     </div>
-    </form>
-
-
-    <h2 id="shorturl"></h2>
-    <p class="bg-danger" id="errorInfo"></p>
 </div>
 
 
